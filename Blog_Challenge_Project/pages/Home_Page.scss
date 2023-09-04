@@ -1,0 +1,86 @@
+#slider1 {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  position: relative;
+  margin-top: 5rem;
+
+  .carousel-caption {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    margin: -20rem 45rem 2rem 5rem;
+    padding: 1rem 1rem 25rem 1rem;
+    left: 7rem;
+
+    .heading {
+      margin-top: 2rem;
+      margin-left: 3rem;
+      padding: 1rem 1rem 2rem 1rem;
+
+      .c-h1 {
+        color: #000;
+        font-size: 3.6rem;
+        font-weight: 600;
+        line-height: 4rem;
+        word-spacing: 0.5rem;
+        text-align: left;
+        float: left;
+        margin: 2rem 0.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    max-width: 500px;
+  }
+  html {
+    font-size: 5px;
+  }
+  .carousel-caption {
+    .heading {
+      font-size: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    max-width: 760px;
+  }
+  html {
+    font-size: 6px;
+  }
+  .carousel-caption {
+    .heading {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 800px;
+  }
+  html {
+    font-size: 7px;
+  }
+  .carousel-caption {
+    .heading {
+      font-size: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 1140px) {
+  .container {
+    max-width: 800px;
+  }
+  html {
+    font-size: 8px;
+  }
+  .carousel-caption {
+    .heading {
+      font-size: 2rem;
+    }
+  }
+}

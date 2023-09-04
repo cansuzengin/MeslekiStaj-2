@@ -1,0 +1,99 @@
+.section-c {
+  margin: 5rem 15rem;
+  padding: 4.8rem;
+  background-color: #f6f6f7;
+  border-radius: 1.2rem;
+}
+.section-c .author-info .author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-c .author-info .author .a-info {
+  margin-left: 1.5rem;
+}
+.section-c .author-info .author .a-info .author-name {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 0;
+  color: #181a2a;
+}
+.section-c .author-info .author .a-info .author-job {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #696a75;
+}
+.section-c .author-info .text {
+  padding: 2rem 14rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #3b3c4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-c .author-info .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-c .author-info .social-media .button {
+  border-radius: 6px;
+  padding: 10px;
+  margin: 1px;
+  background-color: #696a75;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.section-c .author-info .social-media .button:hover {
+  background-color: #3b3c4a;
+}
+.section-c .author-info .social-media .button i {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+@media screen and (max-width: 540px) {
+  .section-c {
+    margin: 5rem 5rem;
+  }
+  .section-c .author-info .text {
+    font-size: 1rem;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .section-c {
+    margin: 5rem 5rem;
+  }
+  .section-c .author-info .text {
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  .section-c {
+    margin: 5rem 5rem;
+  }
+  .section-c .author-info .text {
+    font-size: 1.4rem;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .section-c {
+    margin: 5rem 5rem;
+  }
+  .section-c .author-info .text {
+    font-size: 1.6rem;
+    padding: 2rem 4rem;
+  }
+}/*# sourceMappingURL=About.css.map */

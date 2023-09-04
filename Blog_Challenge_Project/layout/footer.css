@@ -1,0 +1,251 @@
+.footer {
+  background-color: #e8e8ea;
+  padding: 7rem 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footer .container {
+  margin: auto;
+}
+.footer .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .container .row .footer-col {
+  width: 32%;
+  padding: 0 1.5rem;
+}
+.footer .container .row .footer-col h4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #181a2a;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.footer .container .row .footer-col .about {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #696a75;
+}
+.footer .container .row .footer-col .contact {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #3b3c4a;
+}
+.footer .container .row .footer-col .contact span {
+  font-weight: 600;
+  color: #181a2a;
+}
+.footer .container .row .footer-col .link {
+  display: inline-block;
+  margin-left: 3rem;
+}
+.footer .container .row .footer-col .link ul li {
+  margin-bottom: 1rem;
+}
+.footer .container .row .footer-col .link ul li a {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: capitalize;
+  color: #3b3c4a;
+  display: block;
+}
+.footer .container .row .footer-col .link ul li a:hover {
+  color: #696a75;
+}
+.footer .container .row .footer-col .link h4 {
+  margin-left: 1.5rem;
+}
+.footer .container .row .footer-col .newsletter {
+  border-radius: 1.2rem;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: #fff;
+}
+.footer .container .row .footer-col .newsletter .heading {
+  height: 5.6rem;
+  margin: 0.8rem;
+  text-align: center;
+}
+.footer .container .row .footer-col .newsletter .heading h4 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #181a2a;
+  font-family: "Work Sans", sans-serif;
+}
+.footer .container .row .footer-col .newsletter .heading p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: -2rem;
+  color: #696a75;
+  font-family: "Work Sans", sans-serif;
+}
+.footer .container .row .footer-col .newsletter .input-icon {
+  border-radius: 0.6rem;
+  border: 1px solid #dcdddf;
+  padding: 1.2rem 1.6rem 1.2rem 1.6rem;
+  margin: 4px;
+}
+.footer .container .row .footer-col .newsletter .input-icon input {
+  margin: 0.1rem 1rem 0.1rem 0;
+  padding: 0.1rem 1rem 0.1rem 0;
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  border: none;
+  color: #97989f;
+}
+.footer .container .row .footer-col .newsletter .input-icon input:focus {
+  outline: 0;
+}
+.footer .container .row .footer-col .newsletter .input-icon i {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  float: right;
+  color: #696a75;
+}
+.footer .container .row .footer-col .newsletter form {
+  margin-top: 3rem;
+}
+.footer .container .row .footer-col .newsletter .btn {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 1rem;
+  padding: 1.2rem 15rem 1.2rem 12rem;
+  border: 0.6rem;
+  color: #fff;
+}
+.footer .copyright .container {
+  border-top: 1px solid #dcdddf;
+  margin-top: 2rem;
+}
+.footer .copyright .container .copyright-info {
+  margin: 3rem 2rem 0 2rem;
+}
+.footer .copyright .container .copyright-info .copyright-text {
+  margin: 0.2rem;
+  display: inline-block;
+}
+.footer .copyright .container .copyright-info .copyright-text .text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #3b3c4a;
+}
+.footer .copyright .container .copyright-info .logo1 {
+  font-size: 2.8rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  float: left;
+}
+.footer .copyright .container .copyright-info .logo2 {
+  display: inline-block;
+}
+.footer .copyright .container .copyright-info .logo3 {
+  display: inline-block;
+  margin: 0.5rem;
+  position: relative;
+  top: 0.2rem;
+}
+.footer .copyright .container .links {
+  width: 50rem;
+  height: 2.4rem;
+  margin-bottom: 1.6rem;
+  float: right;
+  margin-top: -40px;
+}
+.footer .copyright .container .links .links-a {
+  border-left: 1px solid #dcdddf;
+}
+.footer .copyright .container .links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  float: left;
+  padding-left: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #3b3c4a;
+}
+.footer .copyright .container .links a:hover {
+  color: #696a75;
+}
+.footer .copyright .container .links span {
+  float: right;
+  padding-left: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #dcdddf;
+}
+
+@media screen and (max-width: 540px) {
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .footer-col .newsletter {
+    margin-left: -10rem;
+    margin-right: 5rem;
+  }
+  .footer .container .row .footer-col .newsletter .btn {
+    padding: 1.2rem 12rem 1.2rem 10rem;
+  }
+  .footer .copyright .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .footer-col .newsletter {
+    margin-left: -10rem;
+    margin-right: 5rem;
+  }
+  .footer .container .row .footer-col .newsletter .btn {
+    padding: 1.2rem 12rem 1.2rem 10rem;
+  }
+  .footer .copyright .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .footer-col .newsletter {
+    margin-left: -10rem;
+    margin-right: 5rem;
+  }
+  .footer .container .row .footer-col .newsletter .btn {
+    padding: 1.2rem 12rem 1.2rem 10rem;
+  }
+  .footer .copyright .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .footer-col .newsletter {
+    margin-left: -10rem;
+    margin-right: -12rem;
+  }
+  .footer .container .row .footer-col .newsletter .btn {
+    padding: 1.2rem 12rem 1.2rem 10rem;
+  }
+  .footer .copyright .container .copyright-info {
+    display: block;
+    margin-bottom: 5rem;
+  }
+  .footer .copyright .container .links {
+    display: flex;
+  }
+}/*# sourceMappingURL=footer.css.map */
